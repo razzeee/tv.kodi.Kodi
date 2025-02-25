@@ -141,6 +141,7 @@ modules:
           project-id: 7320
           url-template: http://fstrcmp.sourceforge.net/fstrcmp-$version.tar.gz
   - name: glu
+    buildsystem: meson
     config-opts:
       - --disable-static
     sources:
